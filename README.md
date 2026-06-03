@@ -35,7 +35,8 @@ https://dl.google.com/android/repository/platform-tools-latest-windows.zip
 ### 2.) Connect to the projector's IP address
 `adb connect 192.168.1.42:5555`  (e.g.)
 
-Check it is connected
+Check it is connected:
+
 `adb devices`
 
 ### 3.) List available apps
@@ -61,7 +62,9 @@ Check available space
 
 ### 8.) Play a video file using specific viewer
 `adb shell am start -a android.intent.action.VIEW -p com.hisilicon.android.videoplayer -d "file:///storage/sda1/Airplane.mp4" -t video/mp4`
-or
+
+or:
+
 `adb shell am start -a android.intent.action.VIEW -n com.newlink.cast/tv.danmaku.ijk.media.example.activities.VideoActivity -d "file:///storage/sda1/Pirate.mp4" -t video/mp4`
 
 ### 9.) List all events
@@ -71,9 +74,10 @@ or
 `adb shell input keyevent KEYCODE_MEDIA_NEXT`
 
 or by number:
+
 `adb shell input keyevent 87`
 
-List of events
+List of events:
 
 KEYCODE_HOME                3      Home
 KEYCODE_BACK                4      Back / exit
