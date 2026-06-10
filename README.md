@@ -79,6 +79,7 @@ or by number:
 
 List of events:
 
+```
 KEYCODE_HOME                3      Home
 KEYCODE_BACK                4      Back / exit
 KEYCODE_MENU                82     Menu / player options
@@ -155,6 +156,6 @@ KEYCODE_BRIGHTNESS_DOWN     220    Brightness down
 KEYCODE_BRIGHTNESS_UP       221    Brightness up
 KEYCODE_NOTIFICATION        83     Notification panel
 KEYCODE_SOFT_SLEEP          276    Soft sleep, if supported
-
+```
 
 
