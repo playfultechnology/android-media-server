@@ -158,4 +158,6 @@ KEYCODE_NOTIFICATION        83     Notification panel
 KEYCODE_SOFT_SLEEP          276    Soft sleep, if supported
 ```
 
+### 11.) Display storage usage
+`adb shell df -h`
 
